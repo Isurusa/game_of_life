@@ -34,6 +34,7 @@ This is an implementation of the **Game of Life** written in PHP. It supports bo
     ```
 
 - Options
+
   You can pass arguments with --key=value:
 
         --width (default 25) → grid width
