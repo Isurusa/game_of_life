@@ -11,8 +11,8 @@ This is an implementation of the **Game of Life** written in PHP. It supports bo
 
 ## Requirements
 
-- PHP 7.4+ (works with PHP 8.x as well)
-- No external libraries required
+- PHP 8.0+ (works with PHP 8.x as well)
+- phpunit/phpunit (For testing)
 
 
 ## Project Structure
@@ -23,7 +23,16 @@ This is an implementation of the **Game of Life** written in PHP. It supports bo
         │   └── run.php # CLI runner
         ├── public/
         │   └── index.php # Web interface
+        ├── tests/
+        │   └── GameOfLifeTest.php
         └── README.md
+
+## Install Project
+
+    - Install dependencies
+        ```
+        composer install
+        ```
 
 ---
 
@@ -69,3 +78,9 @@ This is an implementation of the **Game of Life** written in PHP. It supports bo
   - Example:
     
         http://localhost:8000/index.php?width=25&height=25&generations=50
+
+
+## Test
+    ```
+    composer test
+    ```
