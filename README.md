@@ -11,7 +11,7 @@ This is an implementation of the **Game of Life** written in PHP. It supports bo
 
 ## Requirements
 
-- PHP 8.0+ (works with PHP 8.x as well)
+- PHP 8.0+ (works with PHP 8.3 as well)
 - phpunit/phpunit (For testing)
 
 
