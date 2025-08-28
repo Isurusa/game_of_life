@@ -30,9 +30,10 @@ This is an implementation of the **Game of Life** written in PHP. It supports bo
 ## Install Project
 
 - Install dependencies
-        ```
-        composer install
-        ```
+  
+  ```
+  composer install
+  ```
 
 ---
 
@@ -81,6 +82,6 @@ This is an implementation of the **Game of Life** written in PHP. It supports bo
 
 
 ## Test
-    ```
-    composer test
-    ```
+```
+composer test
+```
